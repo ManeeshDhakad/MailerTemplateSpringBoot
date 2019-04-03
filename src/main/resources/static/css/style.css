@@ -1,0 +1,162 @@
+@font-face {
+  font-family: Futura Next Light;
+  src: url(../font/FuturaNext_Light.otf);
+}
+
+body {
+	font-family: Futura Next Light;
+}
+
+input {
+	font-family: Futura Next Light;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-weight: 300;
+    letter-spacing: 0.4px;
+    color: #232323;
+}
+
+.red-color {
+  background-color: #FE414D !important;
+  color : #FFFFFF;
+}
+
+a {
+  color : #FFFFFF;
+}
+a:hover, a:focus, a:active, a.active {
+    color: FFE63B;
+}
+
+a, a:hover, a:focus, a:active, a.active {
+    outline: 0;
+}
+
+::selection {
+    text-shadow: none;
+    background: #fed136;
+}
+
+header {
+    background: #EEEEEE;
+    text-align: center;
+}
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+	header .intro-text {
+	    padding-top: 100px;
+	    padding-bottom: 100px;
+	}
+}
+
+header .intro-text .intro-lead-in {
+    font-style: italic;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+	header .intro-text .intro-lead-in {
+	    font-style: italic;
+	    font-size: 30px;
+	    line-height: 40px;
+	    margin-bottom: 25px;
+	}
+}
+
+@media (min-width: 768px) {
+	header .intro-text .intro-heading {
+	    text-transform: uppercase;
+	    font-weight: 700;
+	    font-size: 40px;
+	    line-height: 40px;
+	    margin-bottom: 50px;
+	}
+}
+
+.light-bg {
+	background-color: #EEEEEE;
+}
+
+.section-title {
+	margin-top : 30px;
+}
+
+.section-title h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+.section-title p {
+    line-height: 25px;
+    margin: 30px 100px 60px 100px;
+}
+
+
+
+footer {
+    padding: 30px;  
+}
+
+footer p {
+    margin: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+}
+
+
+.btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+    color: #FFFFFF;
+    background-color: #FFE63B;
+    border-color: #FFE63B;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
+    color: #FFFFFF;
+    background-color: #FFE63B;
+    border-color: #FFE63B;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #FE414D;
+}
+
+.btn-xl {
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+}
